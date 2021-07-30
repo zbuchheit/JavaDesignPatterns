@@ -2,6 +2,7 @@ package singleton;
 
 public class Singleton {
 
+    //make Singleton thread safe using volatile
     private static volatile Singleton instance = null;
 
     private Singleton(){

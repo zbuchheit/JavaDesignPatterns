@@ -9,6 +9,7 @@ Simple example app for design patterns.
 | + getInstance() : Singleton  |
 
 Notes
+* used to guarantee one instance of an object in an application
 * static in nature
 * thread safe
 * a private instance
