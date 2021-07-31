@@ -7,7 +7,7 @@ public class LunchBuilderExample {
                 .condiments("Lettuce")
                 .dressing("Mayo")
                 .meat("Turkey");
-
+        System.out.println("builder = " + builder);
         LunchBuilder lunchBuilder = builder.build();
 
         System.out.println(lunchBuilder.getBread());

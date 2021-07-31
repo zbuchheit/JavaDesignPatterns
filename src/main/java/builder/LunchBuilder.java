@@ -1,6 +1,7 @@
 package builder;
 
 public class LunchBuilder {
+
     public static class Builder {
         private String bread;
         private String condiments;

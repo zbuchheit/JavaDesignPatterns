@@ -20,6 +20,22 @@ builder/LunchBean.java
  builder.LunchBean
 builder/LunchBuilderExample.java
  builder.LunchBuilderExample
+prototype/Statement.java
+ prototype.Statement
+prototype/Record.java
+ prototype.Record
 builder/LunchBuilder.java
  builder.LunchBuilder
  builder.LunchBuilder$Builder
+prototype/StatementExample.java
+ prototype.StatementExample
+prototype/Book.java
+ prototype.Book
+prototype/Movie.java
+ prototype.Movie
+prototype/Item.java
+ prototype.Item
+prototype/Registry.java
+ prototype.Registry
+prototype/PrototypeExample.java
+ prototype.PrototypeExample
