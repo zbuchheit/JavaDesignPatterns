@@ -50,4 +50,30 @@ Pitfalls/Considerations
 * Designed first
 * Complexity
 
+# Design Patterns - Creational - Prototype Example
+
+|          IPrototype           |
+| ------------------------------| 
+| + Clone()                     | 
+| + DeepCopy()                  | 
+
+Notes
+* Clone
+* Guarantee unique instance
+* Great to help with performance issues associated with creation of lots of objects
+* Lightweight Construction  
+* Avoids keyword "new"
+* Each instance is a copy, but unique
+* Costly construction not handled by client
+* Can do shallow(immediate properties) vs deep copy(object references)
+
+Examples 
+* Cloneable
+
+Pitfalls
+* Sometimes not clear when to use
+* Typically have to use it with another pattern like registry
+* Shallow VS Deep Copy
+
+
 
