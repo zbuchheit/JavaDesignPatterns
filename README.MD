@@ -44,7 +44,7 @@ Examples
 * DocumentBuilder
 * LocaleBuilder
 
-Pitfalls
+Pitfalls/Considerations
 * Immutable
 * Inner Static Class
 * Designed first
