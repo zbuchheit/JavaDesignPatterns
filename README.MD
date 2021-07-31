@@ -23,3 +23,31 @@ Pitfalls
 * If not careful, not thread-safe
 * Can be confused for Factory
 
+# Design Patterns - Creational - Builder Example
+
+|          Builder           |
+| ---------------------------|
+| + buildPart()              |
+    ↑                
+|      ConcreteBuilder       |
+| ---------------------------|
+| + buildPart()              |
+| + getResult()              |
+
+Notes
+* Handles complex constructors
+* Large number of parameters
+* Immutability
+
+Examples
+* StringBuilder
+* DocumentBuilder
+* LocaleBuilder
+
+Pitfalls
+* Immutable
+* Inner Static Class
+* Designed first
+* Complexity
+
+
