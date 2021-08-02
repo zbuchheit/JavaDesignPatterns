@@ -75,5 +75,59 @@ Pitfalls
 * Typically have to use it with another pattern like registry
 * Shallow VS Deep Copy
 
+# Design Patterns - Creational - Factory Example
+
+|          Factory           |
+| ---------------------------|
+| + factoryMethod(): Object  |
+    ↑                
+|      ConcreteBuilder       |
+| ---------------------------|
+| + factoryMethod(): Object  |
+
+Notes
+* Doesn't expose instantiation logic
+* Defer to subclasses
+* Common interface
+* Specified by architecture, impelemented by user
+* Solves complex creation
+* Opposite of a Singleton
+
+Example
+* Calendar
+* ResoureBundle
+* NumberFormat
+
+Pitfalls
+* Complexity
+* Creation in subclass
+* Refactoring
+
+# Design Patterns - Creational - Abstract Factory Example
+
+|          AbstractFactory   |
+| ---------------------------|
+| + createProduct(): Object  |
+    ↑                
+|      ConcreteFactory       |
+| ---------------------------|
+| + concreteProduct(): Object|
+    ↑                
+|      ConcreteProduct       |
+| ---------------------------|
+|                            |
+
+Notes
+* Factory of Factories
+* Factory of related objects
+* Common Interface
+* Defer to Subclasses
+
+Examples
+* DocumentBuilder
+* Frameworks
+
+
+
 
 
