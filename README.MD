@@ -122,10 +122,23 @@ Notes
 * Factory of related objects
 * Common Interface
 * Defer to Subclasses
+* Groups Factories together
+* Factory is reponsible for lifecycle
+* Common Interface
+* Concrete Classes
+* Parameterized create method
+* Composition
 
 Examples
 * DocumentBuilder
 * Frameworks
+
+Pitfalls
+* Complexity
+* Runtime switch
+* Pattern within a pattern
+* Problem specific
+* Starts as a Factory
 
 
 
